@@ -1,0 +1,1063 @@
+.main {
+    background-color: #e7e6e6;
+}
+body {
+    background-color: #e7e6e6;    
+}
+.navTop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: #28724f;
+}
+.navTop2 {
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.logoImgNav {
+    width: 80px;
+    height: 80px;
+}
+.linknavTop {
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center; 
+}
+.alinknavTop {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #bde4d1;
+}
+/* Подвал сайта */
+.navigationFootert {
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center; 
+}
+.conteinerContacts {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center; 
+    background-color: #28724f;
+    margin-top: 25px;
+}
+.conteinerContacts1 {
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center; 
+    background-color: #28724f;
+    margin-bottom: 45px;
+}
+.titleConteinerContacts {
+    /* width: 100px; */
+    font-size: 20px;
+    font-weight: 700px;
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-content: center; 
+}
+#Contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center; 
+    background-color: #28724f;    
+}
+/* Блок авторизации */
+.conteinerAuthorization {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.inputAll {
+    width: 250px;
+    height: 30px;
+}
+.buttonAuthorization {
+    color: white;
+    background-color: #46aa7b;
+    border: 2px solid #28724f;
+    width: 100px;
+    height: 30px;
+}
+.titleAuthorization {
+    text-align: center;
+    margin-top: 40px;
+}
+.linkPassword {
+    font-size: 20px;
+    color: #28724f;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.conteinerbuttonAuthorization {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.authorization {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+    background-color: #bde4d1;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.titleTextAuthorization {
+    padding: 10px 0 5px 0;
+    font-size: 21px;
+    font-weight: 500;
+}
+/* Блок приветствия */
+.nextElementPage {
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    font-weight: 900;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.conteinerElemAndImg {
+    /* height: 600px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-content: center;
+}
+.nextElementPage1 {
+    height: 390px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-content: center;   
+}
+.imgPriview {
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    margin-right: 10px;
+    /* margin-top: -10px; */
+}
+.previewsImg {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+.previewImgConteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -20px;    
+    margin-bottom: 20px;
+}
+.titleConteinerHello {
+   text-align: center; 
+   color: #46aa7b;
+   text-shadow: 1px 1px 1px black;
+   transform: scale();
+}
+@keyframes animation {
+    
+}
+.profile {
+    margin-left: 20px;
+    background-color: #61e6a88f;
+    width: 250px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px;
+}
+.conteinerlinkButtonStartRead {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+.linkButtonStartRead {
+    font-size: 25px;
+    font-weight: 800;
+    /* text-decoration: none; */
+    color: black;
+    margin-bottom: 10px;
+}
+.textConteinerHello {
+    text-align: center;   
+    font-size: 25px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+.conteinerHello {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.Hello {
+    width: 500px;
+    background-color: #bde4d185;
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px;
+}
+.textHello {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* Блок о нас */
+.conteinerAboutUs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    margin-top: 30px;
+}
+.AboutUs {
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+.titleAboutUs {
+    color: #1e523a;
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    width: 900px;
+    text-align: center;
+}
+.descriptionAboutUs {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+    margin-right: 20px;   
+}
+.descriptionConteinerAboutUs {
+    width: 950px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+
+}
+.conteinerImgAboutUs {
+    width: 450px;
+}
+.titleBookHaven {
+    color: #1e523a;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    width: 900px;
+    text-align: center;  
+}
+.descriptionBookHaven {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px; 
+    margin-bottom: 20px; 
+}
+.titleEnd {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 25px; 
+    margin-bottom: 20px; 
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+}
+/* Блок с функциями сервиса */
+.conteinerVideoFunctions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.videoFunctions {
+    width: 900px;
+    height: 400px;
+}
+.titleFunctions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 30px; 
+    margin-bottom: 30px; 
+    margin-top: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Блок с новыми книгами */
+.conteinerVainNewBooks{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+.newBooks {
+    width: 1200px;
+    /* height: 1000px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.blockWithBook {
+    width: 320px;
+    height: 650px;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 25px;
+    align-content: center;
+    margin-right: 25px;
+    margin-top: 26px;
+}
+.nameNewBook {
+    font-size: 25px; 
+    margin-bottom: 30px; 
+    /* margin-top: 40px; */
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+.imgNewBook {
+    width: 190px;
+    height: 250px;
+}
+.descriptionNewBook {
+    width: 290px;
+    height: 210px;
+    word-wrap: break-word;
+    text-align: center;
+    margin-top: 10px;
+}
+.conteinerLinkAndButtonNewBooks {
+    margin-top: 20px;
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.linkButtonNewBook {
+    background-color: #46aa7b;
+    border: 2px solid #28724f;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.linkButtonNewBooks {
+    text-decoration: none;
+    color: white;
+}
+.linkButtonNewBookAll {
+    font-size: 16px;
+    font-weight: 800;
+    /* text-decoration: none; */
+    color: black;
+    margin-bottom: 10px;
+    color: #1e523a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.buttonNewBooks {
+    color: #1e523a;
+    margin-top: 10px;
+}
+/* Блок с быстрым поиском */
+.inputSearch {
+    width: 300px;
+    height: 45px;
+    padding-left: 10px;
+}
+.conteinerButtonSearch {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center; 
+}
+.buttonSearch {
+    background-color: #46aa7b;
+    border: 2px solid #28724f;
+    width: 100px;
+    height: 45px;
+}
+.conteinerh2 {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center; 
+}
+.search {
+    width: 550px;
+}
+.conteinerSearch {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;     
+    margin-bottom: 40px;
+}
+/* Форма для подписки на новости сайта */
+.titleMainConteinerForm {
+    font-family: Nuqun;
+    color: white;
+    margin-top: 25px;
+}
+@font-face {
+    font-family: Nuqun;
+    src: url(fonts/Nuqun/Nuqun-Regular.otf);
+}
+.formSubmit {
+    width: 340px;
+    height: 350px;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #46aa7b;
+}
+.yesTextForm {
+    font-size: 18px;
+    height: 20px;
+    color: white;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.inputCheckbox {
+    width: 21px;
+    height: 21px;
+    margin-right: 20px;
+}
+.inputAndYesCheckbox {
+    width: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.inputEmailFormSubmit {
+    width: 150px;
+    height: 25px;
+    border-radius: 10px;
+    border: 2 px solid #28724f;
+    background-color: #1e523a96;
+    margin-left: 20px;
+    color: white;
+}
+.titleConteinerFormSubmit {
+    color: white;
+    font-size: 20px;
+    
+}
+.inputEmailAndText {
+    width: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.imgFormSubmit {
+    width: 130px;
+    height: 100px;
+}
+.conteinerbuttonFormSubmit {
+    width: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.buttonFormSubmit {
+    width: 102px;
+    height: 32px;
+    border: 2 px solid #44bb83;
+    background-color: #336e5396;
+    color: white;
+    border-radius: 8px;
+}
+.imgConteinerButtonSubmit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-left: 80px;
+    margin-bottom: -30px;
+}
+.conteinerFormSubmit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+/* Блок с отзывами */
+.conteinerReviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.reviews { 
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-content: center;   */
+      overflow-y: scroll;
+    background-color: #28724f5e;
+}
+.BlockBigReviews {
+    width: 700px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.graphReview {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+.conteinerGraphReview {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.dataReview {
+    font-size: larger;
+    font-weight: 700;
+}
+.blockReview {
+    width: 360px;
+    height: 520px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: #1e523a56;
+    border-radius: 30px;
+}
+.nameReview {
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.textReview {
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.imgAuthorReviews {
+    width: 225px;
+    height: 225px;
+}
+
+@font-face {
+    font-family: Share;
+    src: url(fonts/Dacik\ Push/);
+}
+
+/* Страница регистрации */
+.labelRegistration {
+    font-family: Share;
+    font-size: 20px;
+    margin-right: 10px;
+    width: 100px;
+}
+.inputRegistration {
+    width: 200px;
+    height: 30px;
+
+}
+.conteinerInputRegistration {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.inputRegistrationConteiner {
+    width: 700px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin-top: 30px;
+    background-color: #44bb83a1;
+    margin-bottom: 30px;
+}
+.yesTextFormRegistartion {
+    width: 300px;
+}
+.inputAndYesCheckboxRegistration {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+.warningTextRegistration {
+    color: #aa7878;
+    /* margin-bottom: px; */
+}
+.continputRegistration {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center;   */
+    margin-bottom: 20px;
+    /* height: 40px; */
+}
+.titleRegistrationForm {
+    text-align: center;
+    width: 1000px;
+    /* margin-bottom: -700px; */
+}
+
+
+
+
+
+/* Страница Каталог */
+.conteinerSearchElementCatalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+.searchFast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+
+}
+.inputRegistrationSearchFast {
+    height: 48px;
+    width: 250px;
+}
+.searchAuthors {
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    align-content: center;  
+}
+.labelRegistrationSearchFast {
+    margin-left: 200px;
+    height: 50px;
+    font-family: Share;
+    font-size: 20px;
+    margin-right: 10px;
+    /* width: 100px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    align-content: center;  
+    color: #28724f;
+}
+.titleSearchFast {
+    font-size: 35px;
+    color: #1e523a;
+    text-shadow: 1px 1px 2px #44bb83a1;
+    text-align: center;
+}
+
+
+
+
+/* Страница чтения книги */
+.conteinerElementsReadPage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;     
+}
+.square {
+    width: 50px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #eeff81;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;  
+    align-content: center;  
+    /* ma */
+}
+.rectangle 
+{
+    width: 20px;
+    height: 20px;
+    background-color: #46aa7b;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;  
+    align-content: center;  
+    border-radius: 100px;
+    margin-right: 4px;
+}
+.elementReadPage {
+    font-size: 40px;
+    font-weight: 900;
+    color: #bbc95f;
+    margin-right: 30px;
+}
+.elementsReadPage {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    align-content: center;  
+    background-color: #46aa7b;
+
+}
+.elementRea {
+    font-size: 23px;
+    font-weight: 900;
+    color: #bbc95f;
+    padding-right: 160px;
+    
+}
+.elementRea1 {
+    font-size: 23px;
+    font-weight: 900;
+    color: #bbc95f;
+    /* padding-right: 160px; */
+    display: flex;
+    justify-content: flex-end;
+}
+.elementsRead {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+.conteinerElementsRead {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.textConteiner {
+    overflow-x: scroll;
+    width: 900px;
+    height: 900px;
+    text-align: center;
+}
+.mainTextConteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+.dark {
+    background-color: #3f3f3f;
+}
+.book {
+    color: white;
+}
+
+.zagrBooksConyeiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+.zagrBooks {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+.author {
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+}
+@media print {
+    #Contacts {
+        display: none;
+    }
+    .navTop {
+        display: none;
+    }
+    .alinknavTop {
+        display: none;
+    }
+    .conteinerSearchElementCatalog {
+        display: none;
+    }
+    .conteinerLinkAndButtonNewBooks {
+        display: none;
+    }
+    .imgNewBook {
+        filter: grayscale(100%);
+    }
+}
+.conteinerLinkAndButtonNewBook {
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+/* Страница не найдена */
+.styleLinkToIndexPage {
+    font-size: 18px;
+    font-weight: 900;
+    color: #46aa7b;
+    /* text-decoration: none;   */
+}
+
+.conteinerLinkButtonToIndexPage {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.linkButtonToIndexPage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    margin-top: 20px;  
+}
+.text404 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #28724f;
+    text-shadow: 2px 4px 1px antiquewhite;
+}
+.textMain404 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;        
+}
+.num404 {
+    font-size: 180px;
+    font-weight: 900;
+    color: #28724f;
+    text-shadow: 4px 6px 1px rgb(219, 250, 215);  
+}
+.numMain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+    margin-top: 100px;   
+}
+.conteinerzagrKnigi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+    margin-top: 30px;
+}
+.ZagrKnigi {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+.buttonDostypn {
+    border: 2px solid #28724f;
+    width: 200px;
+    height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: #44bb83;
+    margin-top: 5px;
+}
+.inpDate {
+    width: 200px;
+    background-color: #61e6a7;
+    margin-top: 10px;
+}
+@media screen and (max-width: 870px) {
+    .AboutUs {
+        width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;   
+    }
+    .titleAboutUs {
+        color: #1e523a;
+        margin-top: 40px;
+        font-size: 30px;
+        font-weight: 800;
+        margin-bottom: 20px;
+        width: 600px;
+        text-align: center;
+    }
+    .descriptionAboutUs {
+        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;   
+        margin-right: 20px;   
+    }
+    .descriptionConteinerAboutUs {
+        width: 650px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;  
+    
+    }
+    .conteinerImgAboutUs {
+        width: 450px;
+    }
+    .titleBookHaven {
+        color: #1e523a;
+        margin-top: 30px;
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        width: 600px;
+        text-align: center;  
+    }
+    .descriptionBookHaven {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 20px; 
+        margin-bottom: 20px; 
+    }
+    .titleEnd {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 25px; 
+        margin-bottom: 20px; 
+        font-weight: 600;
+        font-style: italic;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 870px) { 
+    .navTop {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        background-color: #28724f;
+    }
+    .navTop2 {
+        height: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    .logoImgNav {
+        width: 50px;
+        height: 50px;
+    }
+    .linknavTop {
+        height: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center; 
+    }
+    .alinknavTop {
+        margin-left: 10px;
+        text-decoration: none;
+        color: #bde4d1;
+    }  
+}
+@media screen and (max-width: 750px) { 
+    .navTop {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        background-color: #28724f;
+    }
+    .navTop2 {
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    .logoImgNav {
+        width: 50px;
+        height: 50px;
+    }
+    .linknavTop {
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center; 
+    }
+    .alinknavTop {
+        margin-left: 5px;
+        text-decoration: none;
+        color: #bde4d1;
+    }  
+}
+@media screen and (max-width: 700px) { 
+    .navTop {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        background-color: #28724f;
+    }
+    .navTop2 {
+        height: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+    .logoImgNav {
+        width: 30px;
+        height: 30px;
+    }
+    .linknavTop {
+        height: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center; 
+        font-size: 10px;
+    }
+    .alinknavTop {
+        margin-left: 5px;
+        text-decoration: none;
+        color: #bde4d1;
+    }  
+}
+
+
