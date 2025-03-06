@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Регистрация</title>
+</head>
+<body>
+    <nav class="navTop">
+        <div class="navTop2">
+        <div class="linknavTop"><img class="logoImgNav" src="logo.svg" alt="logo"></div>
+        <div class="linknavTop">
+            <a class="alinknavTop" href="registration.html">Регистрация</a>
+            <a class="alinknavTop" href="index.html#authorization">Авторизация</a>
+            <a class="alinknavTop" href="profile.html">Личный кабинет</a>
+            <a class="alinknavTop" href="index.html#AboutUs">О нас</a>
+            <a class="alinknavTop" href="index.html#NewBooks">Новые книги</a>
+            <a class="alinknavTop" href="index.html#Search">Поиск</a>
+            <a class="alinknavTop" href="index.html#Reviews">Отзывы</a>
+            <a class="alinknavTop" href="index.html#Contacts">Контакты</a>
+        </div>                
+        </div>
+    </nav>
+    <div class="conteinerInputRegistration">
+        <div class="inputRegistrationConteiner">
+            <h1 class="titleRegistrationForm">Регистрация</h1>
+            <form>
+                <div class="continputRegistration">
+                    <div class="labelRegistration">Имя</div>
+                    <div><input class="inputRegistration" type="text" placeholder="Введите имя" required>
+                     <div class="warningTextRegistration">Пожалуйста введите имя</div>   
+                    </div>
+                    
+                </div>
+                <div class="continputRegistration">
+                    <div class="labelRegistration">E-mail</div>
+                    <div><input class="inputRegistration" type="email" placeholder="Введите email" required>
+                        <div style="color: brown;">Введипте @ в электронный адрес</div>  
+                    </div>
+                </div>
+                <div class="continputRegistration">
+                    <div class="labelRegistration">Возраст</div>
+                    <div>
+                      <div><input type="date" class="inputRegistration" required></div>  
+                      <div><select name="age" class="inputRegistration" style="margin-top: 20px;" required>
+                        <option value="Не выбрано" disabled selected></option>
+                        <option value="s1">0-18 лет</option>
+                        <option value="s2">19-25 лет</option>
+                        <option value="s3">26-45 лет</option>
+                        <option value="s4">46-60 лет</option>
+                        <option value="s5">61 и выше</option>
+                      </select></div>
+                    </div>
+                </div>
+                <div class="continputRegistration">
+                    <div class="labelRegistration">Пол</div>
+                    <div><input type="radio" name="sex" value="sex" required>мужской
+                    <input type="radio" name="sex" value="sex">женский</div>
+                </div>
+                <div class="continputRegistration">
+                    <div class="labelRegistration">Пароль</div>
+                    <div><input class="inputRegistration" type="password" placeholder="Введите пароль" value="aaa" required>
+                        <div style="color: rgb(132, 255, 121);">Пароли совпадают</div>
+                    </div>
+                </div>
+                <div class="continputRegistration">
+                    <div class="labelRegistration">Повторите пароль</div>
+                    <div><input class="inputRegistration" type="password" placeholder="Введите еще раз пароль" value="aaa" required>
+                        <div style="color: rgb(132, 255, 121);">Пароли совпадают</div>
+                    </div>
+                </div>
+                <div class="inputAndYesCheckboxRegistration">
+                    <div><input class="inputCheckbox" type="checkbox" required></div>
+                    <div class="yesTextFormRegistartion">Я согласен на обработку персональных данных</div>
+                </div>
+                <div class="conteinerbuttonFormSubmit"><button class="buttonFormSubmit">Подписаться</button></div>
+            </form>
+        </div>
+    </div>
+    <footer id="Contacts">
+        <div class="navigationFootert">
+            <a class="alinknavTop" href="index.html">Главная</a>
+            <a class="alinknavTop" href="registration.html">Регистрация</a>
+            <a class="alinknavTop" href="catalog.html">Каталог</a>
+            <a class="alinknavTop" href="read.html">Читать книгу</a>
+            <a class="alinknavTop" href="read-dark.html">Читать книгу - темная тема</a>
+            <a class="alinknavTop" href="profile.html">Личный кабинет</a>
+            <a class="alinknavTop" href="admin.html">Личный кабинет администратора</a>
+            <a class="alinknavTop" href="not-found.html">404</a>
+        </div>
+        <div class="conteinerContacts">
+            <div class="conteinerContacts1">
+                <div class="titleConteinerContacts">Телефон</div>
+                <a class="alinknavTop" href="#">+7 (800) 123-45-67</a>            
+            </div>
+            <div class="conteinerContacts1">
+                <div class="titleConteinerContacts">E-mail</div>
+                <a class="alinknavTop" href="#">books@prof.ru</a>              
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
